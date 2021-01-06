@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ZFAdSdk_Example' do
+  pod 'ZFAdSdk', :path => '../'
+
+  target 'ZFAdSdk_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
