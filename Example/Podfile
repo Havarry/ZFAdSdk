@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'ZFAdSdk_Example' do
-  pod 'ZFAdSdk', :path => '../'
+  pod 'ZFAdSdk', :subspecs => ['Core', 'admob_sdk', 'gdt_ads_sdk', 'byte_dance_ads_sdk'], :path => '../'
 
   target 'ZFAdSdk_Tests' do
     inherit! :search_paths
