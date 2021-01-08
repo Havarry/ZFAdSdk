@@ -1,6 +1,0 @@
-framework module ZFAdSdk {
-  umbrella header "ZFAdSdk-umbrella.h"
-
-  export *
-  module * { export * }
-}
