@@ -1,0 +1,16 @@
+PODS:
+  - ZFAdSdk (0.1.0)
+
+DEPENDENCIES:
+  - ZFAdSdk (from `../`)
+
+EXTERNAL SOURCES:
+  ZFAdSdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZFAdSdk: 1ae0e96857baea8e311c903699513dabaf166e32
+
+PODFILE CHECKSUM: 30bd0e4954ceb672a63c4e9fde8f055f97f07df9
+
+COCOAPODS: 1.9.3
